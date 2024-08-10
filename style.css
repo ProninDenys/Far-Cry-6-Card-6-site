@@ -1,0 +1,45 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #2B3040;
+}
+
+
+.main {
+    position: relative;  
+    width: 1440px;
+    height: 1024px;
+    background-color: #2B3040;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.background-section {
+    position: absolute; 
+    width: 1000px;
+    height: 860px;
+    top: 82px;  
+    left: 220px;  
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(41, 45, 62, 0.8); 
+    z-index: 1;
+}
+
+
+.background-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    position: relative;
+    z-index: 0;
+}
