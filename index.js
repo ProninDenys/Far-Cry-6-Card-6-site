@@ -63,7 +63,6 @@ $(document).ready(function() {
         });
     }
 
-    /
     animateScore(8.7);
 
     // 7. Анимация появления звездочек
