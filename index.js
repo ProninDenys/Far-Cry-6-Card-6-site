@@ -44,10 +44,10 @@ $(document).ready(function() {
 
     // 6. Анимация для Score
     function animateScore(score) {
-        let $scoreText = $(".score-text");
+        const $scoreText = $(".score-text");
         let currentScore = 0;
 
-        let scoreInterval = setInterval(function() {
+        const scoreInterval = setInterval(function() {
             if (currentScore < score) {
                 currentScore += 0.1;
                 $scoreText.text(currentScore.toFixed(1));
