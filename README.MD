@@ -1,6 +1,6 @@
 # Far Cry 6 Game Card
 
-
+https://pronindenys.github.io/Far-Cry-6-Card-6-site/
 
 This project is a dynamic and interactive game card for **Far Cry 6**, showcasing detailed game information, ratings, pricing, and a buy option. The design is modern, responsive, and includes several interactive elements such as animations and hover effects to enhance user experience.
 
